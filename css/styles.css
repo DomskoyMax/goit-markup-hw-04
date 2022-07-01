@@ -124,11 +124,32 @@ margin-right: 50px;
     letter-spacing: 0.02em;
     color: #757575;
     height: 16px;
+    width: 122px;
+    
+}
+.header-soc-icon {
+}   
+.header-soc-link {
+    justify-items: center;
+    align-items: center;
+    fill: #757575;
+    
+
+
+}    
+
+.header-soc-link:hover, .header-soc-link:focus {
+    fill: #2196F3;
+    
+}
+.header-soc-link:hover .header-soc-icon, .header-soc-link:focus .header-soc-icon {
+    fill: #2196F3;
 }
 .header-tel {
     margin-left: 50px;
 
 }
+
                                                                  /* HERO */ 
 
 .hero {
@@ -180,6 +201,17 @@ margin-right: 50px;
 }
 .advantages {
     padding-top: 94px;
+}
+.advantages-icon {
+    width: 270px;
+    height: 120px;
+    outline: 1px solid red ;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
 }
 .main-list {
     min-width: 270px;
