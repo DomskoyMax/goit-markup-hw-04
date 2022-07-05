@@ -475,7 +475,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-left: 70px;
+  margin-left: 70px;
   padding-top: 72px;
 }
 .container-join {
@@ -484,7 +484,7 @@ address {
 .join-soc-list {
   display: flex;
   margin-top: 20px;
-  padding-left: 70px;
+  margin-left: 70px;
   /* justify-content: center; */
 }
 
