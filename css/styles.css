@@ -384,10 +384,6 @@ address {
   color: var(--header-color);
 }
 .clients-item {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
   display: flex;
   justify-content: center;
 }
@@ -403,17 +399,21 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .clients-soc-icon {
   fill: #afb1b8;
 }
-.clients-item:hover,
-.clients-item:focus {
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid #2196f3;
 }
 
-.clients-item:hover .clients-soc-icon,
-.clients-item:focus .clients-soc-icon {
+.clients-link:hover .clients-soc-icon,
+.clients-link:focus .clients-soc-icon {
   fill: #2196f3;
 }
 
